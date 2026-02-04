@@ -1,0 +1,33 @@
+========================================
+COMO CRIAR O ARQUIVO .env
+========================================
+
+1. Na pasta C:\Dev\WorkNow, crie um arquivo chamado:
+   .env
+
+2. Cole este conteúdo (SUBSTITUA com suas credenciais):
+
+VITE_SUPABASE_URL=https://tyhqjxaguwuamyftdqth.supabase.co
+VITE_SUPABASE_ANON_KEY=cole_a_chave_anon_aqui
+
+3. SALVE O ARQUIVO
+
+========================================
+ONDE PEGAR AS CREDENCIAIS:
+========================================
+
+1. No Supabase Dashboard (que você está agora)
+2. Clique em "Settings" (ícone de engrenagem no menu lateral)
+3. Clique em "API"
+4. Copie:
+   - Project URL (já apareceu na imagem: tyhqjxaguwuamyftdqth)
+   - anon public key (é uma chave muito longa)
+
+========================================
+IMPORTANTE:
+========================================
+
+- Substitua [YOUR_PASSWORD] no .env
+- Use SEM aspas nas variáveis
+- O arquivo .env deve ficar na raiz do projeto
+

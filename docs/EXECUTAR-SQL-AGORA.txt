@@ -1,0 +1,31 @@
+===============================================
+EXECUTE ESTE SQL NO SUPABASE
+===============================================
+
+1. No Supabase Dashboard:
+   - Vá em "SQL Editor"
+   - Clique em "New query"
+
+2. Cole TODO o conteúdo do arquivo: database-fixed.sql
+
+3. Clique em "RUN" (ou Ctrl+Enter)
+
+4. ✅ Vai funcionar sem erros de triggers!
+
+===============================================
+DEPOIS DISSO:
+===============================================
+
+1. Recarregue a página do app (F5)
+2. Tente criar uma conta novamente
+3. Agora deve funcionar!
+
+===============================================
+SE AINDA DER ERRO 400:
+===============================================
+
+Vá em: Authentication → Settings
+Desative: "Enable email confirmations"
+
+===============================================
+

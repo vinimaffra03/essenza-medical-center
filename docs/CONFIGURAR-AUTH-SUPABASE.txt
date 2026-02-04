@@ -1,0 +1,45 @@
+===============================================
+CONFIGURAR SUPABASE AUTH
+===============================================
+
+Erro 400 no signup geralmente é porque:
+
+1. Confirmação de Email está ATIVADA
+2. Ou algum problema com as configurações
+
+SIGA ESTES PASSOS:
+
+1. No Supabase Dashboard:
+   - Vá em Authentication → Settings
+   
+2. Procure por "Enable email confirmations"
+   
+3. DESATIVE (toggle OFF):
+   ✓ "Enable email confirmations"
+   ✓ "Double opt-in" 
+   
+4. Salve as configurações
+
+5. Procure por "Email Auth":
+   - Certifique-se que está HABILITADO
+   
+6. Verifique:
+   - "Site URL" deve ter: http://localhost:5173
+   
+7. Na seção "Email Templates":
+   - Pode deixar como está
+
+===============================================
+TAMBÉM VERIFIQUE:
+===============================================
+
+No SQL Editor, execute:
+
+SELECT * FROM profiles;
+
+Se retornar a tabela (vazia ou com dados), o banco está OK!
+
+===============================================
+
+Após desativar confirmacao de email, teste novamente!
+
